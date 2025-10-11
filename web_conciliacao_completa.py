@@ -31,4 +31,7 @@ def ler_csv_cisslive(file):
     df['data'] = pd.to_datetime(df['data'])
     return df
 
-def cl
+def classificar_categoria(desc):
+    d = desc.lower()
+    if any(x in d for x in ['salario','funcionario','folha']):
+        return 'Salário'
