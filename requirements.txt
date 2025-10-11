@@ -1,6 +1,5 @@
-streamlit
-pandas
-ofxparse
-fuzzywuzzy
-python-Levenshtein
+streamlit==1.27.0
+pandas>=2.0.0
+ofxparse>=0.20
+fuzzywuzzy[speedup]
 matplotlib
